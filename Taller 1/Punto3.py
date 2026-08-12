@@ -168,8 +168,6 @@ print(f"\nResultado final: x = {x_final}")
 print(f"f(x) = {f(x_final):.6f}")
 print(f"Solucion exacta (KKT): x* = (2,2), f* = 8")
 print(f"Error final: ||x - x*|| = {np.linalg.norm(x_final - x_exacto):.2e}")
-print(f"\n>> g1(x) quedo en {g1(x_final):.4f} (osea <=0 con margen, la desigualdad "
-      f"nunca se activo, todo lo hizo la igualdad).")
 
 # Graficas
 
